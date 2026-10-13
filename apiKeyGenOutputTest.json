@@ -1,0 +1,407 @@
+{
+  "service": "codedcore-api",
+  "api_type": "httproblox",
+  "total_keys": 50,
+  "keys": [
+    {
+      "id": "a7Kp9XmQ4vRt2NzL8wHy6BcD",
+      "key": "codedcore-api:httproblox-a7Kp9XmQ4vRt2NzL8wHy6BcD",
+      "permission_level": "read",
+      "action": "get_resource",
+      "status": "active",
+      "environment": "production"
+    },
+    {
+      "id": "b4Nz2RwL9xKm5VpT7qHy3Jc",
+      "key": "codedcore-api:httproblox-b4Nz2RwL9xKm5VpT7qHy3Jc",
+      "permission_level": "write",
+      "action": "update_resource",
+      "status": "active",
+      "environment": "staging"
+    },
+    {
+      "id": "c8Vt5YhJ2mQx7LpN4wZk9Br",
+      "key": "codedcore-api:httproblox-c8Vt5YhJ2mQx7LpN4wZk9Br",
+      "permission_level": "read_write",
+      "action": "manage_resource",
+      "status": "active",
+      "environment": "development"
+    },
+    {
+      "id": "d3Mq7LpX6vKn1RtY8hW5Zc",
+      "key": "codedcore-api:httproblox-d3Mq7LpX6vKn1RtY8hW5Zc",
+      "permission_level": "read",
+      "action": "list_resources",
+      "status": "active",
+      "environment": "production"
+    },
+    {
+      "id": "e9Rk1WzB5tXm8QvN2pHy4Lc",
+      "key": "codedcore-api:httproblox-e9Rk1WzB5tXm8QvN2pHy4Lc",
+      "permission_level": "write",
+      "action": "create_resource",
+      "status": "active",
+      "environment": "staging"
+    },
+    {
+      "id": "f6Yp4NcT9kRw2VmJ7xQh5Zb",
+      "key": "codedcore-api:httproblox-f6Yp4NcT9kRw2VmJ7xQh5Zb",
+      "permission_level": "read",
+      "action": "get_resource",
+      "status": "active",
+      "environment": "development"
+    },
+    {
+      "id": "g2Hx8VmK4qNz7LpW1yRt6Bc",
+      "key": "codedcore-api:httproblox-g2Hx8VmK4qNz7LpW1yRt6Bc",
+      "permission_level": "admin",
+      "action": "manage_permissions",
+      "status": "active",
+      "environment": "production"
+    },
+    {
+      "id": "h5Lw3QjR8vKm2XpN9tYc4Hz",
+      "key": "codedcore-api:httproblox-h5Lw3QjR8vKm2XpN9tYc4Hz",
+      "permission_level": "read_write",
+      "action": "update_resource",
+      "status": "active",
+      "environment": "staging"
+    },
+    {
+      "id": "i7Tb9ZpM3xQw6KnL2vRy5Hc",
+      "key": "codedcore-api:httproblox-i7Tb9ZpM3xQw6KnL2vRy5Hc",
+      "permission_level": "read",
+      "action": "list_resources",
+      "status": "active",
+      "environment": "development"
+    },
+    {
+      "id": "j1Xn6KdV8pTm4QwZ7hRc2By",
+      "key": "codedcore-api:httproblox-j1Xn6KdV8pTm4QwZ7hRc2By",
+      "permission_level": "write",
+      "action": "delete_resource",
+      "status": "inactive",
+      "environment": "staging"
+    },
+    {
+      "id": "k8Pm2YrH5vNz9LxQ4tWc7Jb",
+      "key": "codedcore-api:httproblox-k8Pm2YrH5vNz9LxQ4tWc7Jb",
+      "permission_level": "read",
+      "action": "get_resource",
+      "status": "active",
+      "environment": "production"
+    },
+    {
+      "id": "l4Qv7BcN1xKm8TpY5rHz3Wd",
+      "key": "codedcore-api:httproblox-l4Qv7BcN1xKm8TpY5rHz3Wd",
+      "permission_level": "read_write",
+      "action": "manage_resource",
+      "status": "active",
+      "environment": "development"
+    },
+    {
+      "id": "m9Jx3TkW6qVp2NcR8yHb5Z",
+      "key": "codedcore-api:httproblox-m9Jx3TkW6qVp2NcR8yHb5Z",
+      "permission_level": "write",
+      "action": "create_resource",
+      "status": "active",
+      "environment": "production"
+    },
+    {
+      "id": "n2Rw5HpZ7mKx4QtL9vYc1Bd",
+      "key": "codedcore-api:httproblox-n2Rw5HpZ7mKx4QtL9vYc1Bd",
+      "permission_level": "read",
+      "action": "list_resources",
+      "status": "active",
+      "environment": "staging"
+    },
+    {
+      "id": "o6Vk1MqY3pNz8TwR5hJx2Lc",
+      "key": "codedcore-api:httproblox-o6Vk1MqY3pNz8TwR5hJx2Lc",
+      "permission_level": "admin",
+      "action": "manage_permissions",
+      "status": "active",
+      "environment": "development"
+    },
+    {
+      "id": "p3Zn8LbT6vQk1XmY9rW4Hp",
+      "key": "codedcore-api:httproblox-p3Zn8LbT6vQk1XmY9rW4Hp",
+      "permission_level": "read_write",
+      "action": "update_resource",
+      "status": "active",
+      "environment": "production"
+    },
+    {
+      "id": "q7Hy4XwK2mNp9VzL5tRc3Bj",
+      "key": "codedcore-api:httproblox-q7Hy4XwK2mNp9VzL5tRc3Bj",
+      "permission_level": "read",
+      "action": "get_resource",
+      "status": "active",
+      "environment": "staging"
+    },
+    {
+      "id": "r5Ct9NpJ4xWm7QvK2hY8Lb",
+      "key": "codedcore-api:httproblox-r5Ct9NpJ4xWm7QvK2hY8Lb",
+      "permission_level": "write",
+      "action": "update_resource",
+      "status": "active",
+      "environment": "development"
+    },
+    {
+      "id": "s1Wm6RvB9kTx3QpN7yHz5Lc",
+      "key": "codedcore-api:httproblox-s1Wm6RvB9kTx3QpN7yHz5Lc",
+      "permission_level": "read",
+      "action": "list_resources",
+      "status": "active",
+      "environment": "production"
+    },
+    {
+      "id": "t8Kq2YxL4vNm7HpR1zW5Bc",
+      "key": "codedcore-api:httproblox-t8Kq2YxL4vNm7HpR1zW5Bc",
+      "permission_level": "read_write",
+      "action": "manage_resource",
+      "status": "active",
+      "environment": "staging"
+    },
+    {
+      "id": "u4Np7ZhM9xQk2TvL6rWy3Bc",
+      "key": "codedcore-api:httproblox-u4Np7ZhM9xQk2TvL6rWy3Bc",
+      "permission_level": "read",
+      "action": "get_resource",
+      "status": "active",
+      "environment": "development"
+    },
+    {
+      "id": "v9Bx3QkT5mRz8HpN1yWc4Lj",
+      "key": "codedcore-api:httproblox-v9Bx3QkT5mRz8HpN1yWc4Lj",
+      "permission_level": "write",
+      "action": "create_resource",
+      "status": "active",
+      "environment": "production"
+    },
+    {
+      "id": "w2Lj5VmR7xQn4TkP9hYc6Zb",
+      "key": "codedcore-api:httproblox-w2Lj5VmR7xQn4TkP9hYc6Zb",
+      "permission_level": "read_write",
+      "action": "update_resource",
+      "status": "active",
+      "environment": "staging"
+    },
+    {
+      "id": "x6Yt1HpN3mKq8RvW5zLc2Bj",
+      "key": "codedcore-api:httproblox-x6Yt1HpN3mKq8RvW5zLc2Bj",
+      "permission_level": "read",
+      "action": "list_resources",
+      "status": "active",
+      "environment": "development"
+    },
+    {
+      "id": "y3Qm8WzK6vTp1NxR9hBc4Lj",
+      "key": "codedcore-api:httproblox-y3Qm8WzK6vTp1NxR9hBc4Lj",
+      "permission_level": "admin",
+      "action": "manage_permissions",
+      "status": "active",
+      "environment": "production"
+    },
+    {
+      "id": "z7Rv4NcJ2xKm9TpW5hYq8Lb",
+      "key": "codedcore-api:httproblox-z7Rv4NcJ2xKm9TpW5hYq8Lb",
+      "permission_level": "write",
+      "action": "delete_resource",
+      "status": "inactive",
+      "environment": "staging"
+    },
+    {
+      "id": "A5Pk9XhM3vRt7QwN2yLc6Bj",
+      "key": "codedcore-api:httproblox-A5Pk9XhM3vRt7QwN2yLc6Bj",
+      "permission_level": "read",
+      "action": "get_resource",
+      "status": "active",
+      "environment": "development"
+    },
+    {
+      "id": "B1Wt6QvL8mZp4KxR9hYc2Tn",
+      "key": "codedcore-api:httproblox-B1Wt6QvL8mZp4KxR9hYc2Tn",
+      "permission_level": "read_write",
+      "action": "manage_resource",
+      "status": "active",
+      "environment": "production"
+    },
+    {
+      "id": "C8Zn2YrT5qVm7LpW1xHk4Bc",
+      "key": "codedcore-api:httproblox-C8Zn2YrT5qVm7LpW1xHk4Bc",
+      "permission_level": "write",
+      "action": "update_resource",
+      "status": "active",
+      "environment": "staging"
+    },
+    {
+      "id": "D4Hx7KmP9vNc2YwL5qRt8Bj",
+      "key": "codedcore-api:httproblox-D4Hx7KmP9vNc2YwL5qRt8Bj",
+      "permission_level": "read",
+      "action": "list_resources",
+      "status": "active",
+      "environment": "development"
+    },
+    {
+      "id": "E9Mq3LbV6xTp1KzR8hW5Nc",
+      "key": "codedcore-api:httproblox-E9Mq3LbV6xTp1KzR8hW5Nc",
+      "permission_level": "admin",
+      "action": "manage_permissions",
+      "status": "active",
+      "environment": "production"
+    },
+    {
+      "id": "F2Yp5RwN7kVm4QxL9tHb3Zc",
+      "key": "codedcore-api:httproblox-F2Yp5RwN7kVm4QxL9tHb3Zc",
+      "permission_level": "read_write",
+      "action": "create_resource",
+      "status": "active",
+      "environment": "staging"
+    },
+    {
+      "id": "G6Tk1XzH4mQv8LpN2yRw5Bc",
+      "key": "codedcore-api:httproblox-G6Tk1XzH4mQv8LpN2yRw5Bc",
+      "permission_level": "read",
+      "action": "get_resource",
+      "status": "active",
+      "environment": "development"
+    },
+    {
+      "id": "H3Vn8QjM6xKt2RpW9yLc4Bz",
+      "key": "codedcore-api:httproblox-H3Vn8QjM6xKt2RpW9yLc4Bz",
+      "permission_level": "write",
+      "action": "update_resource",
+      "status": "active",
+      "environment": "production"
+    },
+    {
+      "id": "I7Lp4BcR1vXn9QwK5mTy2Hz",
+      "key": "codedcore-api:httproblox-I7Lp4BcR1vXn9QwK5mTy2Hz",
+      "permission_level": "read",
+      "action": "list_resources",
+      "status": "active",
+      "environment": "staging"
+    },
+    {
+      "id": "J5Rw9YkT3pVm6XqN8hLc2Bz",
+      "key": "codedcore-api:httproblox-J5Rw9YkT3pVm6XqN8hLc2Bz",
+      "permission_level": "read_write",
+      "action": "manage_resource",
+      "status": "active",
+      "environment": "development"
+    },
+    {
+      "id": "K1Xm6NpV4qZt8RwL2yHc5Bj",
+      "key": "codedcore-api:httproblox-K1Xm6NpV4qZt8RwL2yHc5Bj",
+      "permission_level": "write",
+      "action": "create_resource",
+      "status": "active",
+      "environment": "production"
+    },
+    {
+      "id": "L8Qh2ZtB7mVx4KpN9wRc5Yj",
+      "key": "codedcore-api:httproblox-L8Qh2ZtB7mVx4KpN9wRc5Yj",
+      "permission_level": "read",
+      "action": "get_resource",
+      "status": "active",
+      "environment": "staging"
+    },
+    {
+      "id": "M4Yk7PwN2vQx9LtH6mBc3Rz",
+      "key": "codedcore-api:httproblox-M4Yk7PwN2vQx9LtH6mBc3Rz",
+      "permission_level": "admin",
+      "action": "manage_permissions",
+      "status": "active",
+      "environment": "development"
+    },
+    {
+      "id": "N9Ct3HxJ5kVm8QwL2yRp7Bc",
+      "key": "codedcore-api:httproblox-N9Ct3HxJ5kVm8QwL2yRp7Bc",
+      "permission_level": "read_write",
+      "action": "update_resource",
+      "status": "active",
+      "environment": "production"
+    },
+    {
+      "id": "O2Vm5LbQ8xTk1NpR6yHz4Wc",
+      "key": "codedcore-api:httproblox-O2Vm5LbQ8xTk1NpR6yHz4Wc",
+      "permission_level": "read",
+      "action": "list_resources",
+      "status": "active",
+      "environment": "staging"
+    },
+    {
+      "id": "P6Zr1TkW3mQv9HxL5yBc2Jn",
+      "key": "codedcore-api:httproblox-P6Zr1TkW3mQv9HxL5yBc2Jn",
+      "permission_level": "write",
+      "action": "create_resource",
+      "status": "active",
+      "environment": "development"
+    },
+    {
+      "id": "Q3Np8YhM7vKx2RtW5mLc9Bj",
+      "key": "codedcore-api:httproblox-Q3Np8YhM7vKx2RtW5mLc9Bj",
+      "permission_level": "read",
+      "action": "get_resource",
+      "status": "active",
+      "environment": "production"
+    },
+    {
+      "id": "R7Bx4WvL1mQz8TpK5yHc2Jn",
+      "key": "codedcore-api:httproblox-R7Bx4WvL1mQz8TpK5yHc2Jn",
+      "permission_level": "read_write",
+      "action": "manage_resource",
+      "status": "active",
+      "environment": "staging"
+    },
+    {
+      "id": "S5Kj9XmT2vRp6WqN8hLc4By",
+      "key": "codedcore-api:httproblox-S5Kj9XmT2vRp6WqN8hLc4By",
+      "permission_level": "write",
+      "action": "update_resource",
+      "status": "active",
+      "environment": "development"
+    },
+    {
+      "id": "T1Qw6ZpN4mVk8HxL2yRc5Bj",
+      "key": "codedcore-api:httproblox-T1Qw6ZpN4mVk8HxL2yRc5Bj",
+      "permission_level": "read",
+      "action": "list_resources",
+      "status": "active",
+      "environment": "production"
+    },
+    {
+      "id": "U8Hy2VcR7mXp4KqN9wLt6Bc",
+      "key": "codedcore-api:httproblox-U8Hy2VcR7mXp4KqN9wLt6Bc",
+      "permission_level": "admin",
+      "action": "manage_permissions",
+      "status": "active",
+      "environment": "staging"
+    },
+    {
+      "id": "V4Lm7XkB2qNp9RtW5yHc3Jz",
+      "key": "codedcore-api:httproblox-V4Lm7XkB2qNp9RtW5yHc3Jz",
+      "permission_level": "read_write",
+      "action": "create_resource",
+      "status": "active",
+      "environment": "development"
+    },
+    {
+      "id": "W9Pt3NqJ6xKm1RvL8yHb5Zc",
+      "key": "codedcore-api:httproblox-W9Pt3NqJ6xKm1RvL8yHb5Zc",
+      "permission_level": "write",
+      "action": "update_resource",
+      "status": "active",
+      "environment": "production"
+    },
+    {
+      "id": "X2Yv5RhM8kQn4TpL7wBc9Zj",
+      "key": "codedcore-api:httproblox-X2Yv5RhM8kQn4TpL7wBc9Zj",
+      "permission_level": "read",
+      "action": "get_resource",
+      "status": "active",
+      "environment": "staging"
+    }
+  ]
+}
