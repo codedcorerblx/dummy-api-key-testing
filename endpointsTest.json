@@ -1,0 +1,100 @@
+{
+  "service": "codedcore-api",
+  "api_type": "httproblox",
+  "environment": "local",
+  "base_url": "http://127.0.0.1:3000",
+  "data_mode": "example_configuration",
+  "total_endpoints": 10,
+  "endpoints": [
+    {
+      "id": "test_health",
+      "name": "Health Check",
+      "method": "GET",
+      "path": "/test/health",
+      "url": "http://127.0.0.1:3000/test/health",
+      "purpose": "Check whether the local test server is running",
+      "expected_status": 200
+    },
+    {
+      "id": "test_keys_list",
+      "name": "List Test Key Records",
+      "method": "GET",
+      "path": "/test/keys",
+      "url": "http://127.0.0.1:3000/test/keys",
+      "purpose": "Return mock key metadata without exposing secrets",
+      "expected_status": 200
+    },
+    {
+      "id": "test_key_detail",
+      "name": "Get Test Key Record",
+      "method": "GET",
+      "path": "/test/keys/{key_id}",
+      "url_template": "http://127.0.0.1:3000/test/keys/{key_id}",
+      "purpose": "Return one mock test record by identifier",
+      "expected_status": 200
+    },
+    {
+      "id": "test_run_all",
+      "name": "Run Mock Test Suite",
+      "method": "POST",
+      "path": "/test/run",
+      "url": "http://127.0.0.1:3000/test/run",
+      "purpose": "Start a local simulated test run",
+      "expected_status": 202
+    },
+    {
+      "id": "test_results_list",
+      "name": "List Test Results",
+      "method": "GET",
+      "path": "/test/results",
+      "url": "http://127.0.0.1:3000/test/results",
+      "purpose": "Retrieve simulated test results",
+      "expected_status": 200
+    },
+    {
+      "id": "test_result_detail",
+      "name": "Get Test Result",
+      "method": "GET",
+      "path": "/test/results/{test_id}",
+      "url_template": "http://127.0.0.1:3000/test/results/{test_id}",
+      "purpose": "Retrieve one simulated result by test identifier",
+      "expected_status": 200
+    },
+    {
+      "id": "test_report_summary",
+      "name": "Test Report Summary",
+      "method": "GET",
+      "path": "/test/report/summary",
+      "url": "http://127.0.0.1:3000/test/report/summary",
+      "purpose": "Return aggregate success and miss counts",
+      "expected_status": 200
+    },
+    {
+      "id": "test_validate_payload",
+      "name": "Validate Test Payload",
+      "method": "POST",
+      "path": "/test/validate",
+      "url": "http://127.0.0.1:3000/test/validate",
+      "purpose": "Validate a sample request body against the mock schema",
+      "expected_status": 200
+    },
+    {
+      "id": "test_rate_limit",
+      "name": "Rate Limit Simulation",
+      "method": "POST",
+      "path": "/test/simulate/rate-limit",
+      "url": "http://127.0.0.1:3000/test/simulate/rate-limit",
+      "purpose": "Simulate a rate-limit response without stressing a real service",
+      "expected_status": 429
+    },
+    {
+      "id": "test_reset",
+      "name": "Reset Mock Test Data",
+      "method": "POST",
+      "path": "/test/reset",
+      "url": "http://127.0.0.1:3000/test/reset",
+      "purpose": "Reset disposable local mock fixtures",
+      "expected_status": 200
+    }
+  ]
+}
