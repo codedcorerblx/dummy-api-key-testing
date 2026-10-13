@@ -1,0 +1,513 @@
+{
+  "report_type": "api_key_test_report",
+  "service": "codedcore-api",
+  "api_type": "httproblox",
+  "total_tests": 50,
+  "data_mode": "simulated",
+  "summary": {
+    "success": 36,
+    "miss": 14
+  },
+  "tests": [
+    {
+      "test_id": "test_a7Kp9XmQ4vRt2NzL8wHy6BcD",
+      "key_id": "a7Kp9XmQ4vRt2NzL8wHy6BcD",
+      "result": "success",
+      "response_code": "HTTP 200 OK",
+      "response_time_ms": 630,
+      "reason": "Mock endpoint returned a valid sample payload.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_b4Nz2RwL9xKm5VpT7qHy3Jc",
+      "key_id": "b4Nz2RwL9xKm5VpT7qHy3Jc",
+      "result": "miss",
+      "response_code": 503,
+      "response_time_ms": 377,
+      "reason": "Service Unavailable: Simulated mock service was temporarily unavailable.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_c8Vt5YhJ2mQx7LpN4wZk9Br",
+      "key_id": "c8Vt5YhJ2mQx7LpN4wZk9Br",
+      "result": "miss",
+      "response_code": 401,
+      "response_time_ms": 466,
+      "reason": "Unauthorized: Simulated authentication failure; credential was not accepted by the mock.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_d3Mq7LpX6vKn1RtY8hW5Zc",
+      "key_id": "d3Mq7LpX6vKn1RtY8hW5Zc",
+      "result": "success",
+      "response_code": "HTTP 204 No Content",
+      "response_time_ms": 650,
+      "reason": "Mock endpoint completed without a response body.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_e9Rk1WzB5tXm8QvN2pHy4Lc",
+      "key_id": "e9Rk1WzB5tXm8QvN2pHy4Lc",
+      "result": "success",
+      "response_code": "HTTP 204 No Content",
+      "response_time_ms": 284,
+      "reason": "Mock endpoint completed without a response body.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_f6Yp4NcT9kRw2VmJ7xQh5Zb",
+      "key_id": "f6Yp4NcT9kRw2VmJ7xQh5Zb",
+      "result": "miss",
+      "response_code": 401,
+      "response_time_ms": 61,
+      "reason": "Unauthorized: Simulated authentication failure; credential was not accepted by the mock.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_g2Hx8VmK4qNz7LpW1yRt6Bc",
+      "key_id": "g2Hx8VmK4qNz7LpW1yRt6Bc",
+      "result": "success",
+      "response_code": "HTTP 204 No Content",
+      "response_time_ms": 629,
+      "reason": "Mock endpoint completed without a response body.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_h5Lw3QjR8vKm2XpN9tYc4Hz",
+      "key_id": "h5Lw3QjR8vKm2XpN9tYc4Hz",
+      "result": "miss",
+      "response_code": 401,
+      "response_time_ms": 297,
+      "reason": "Unauthorized: Simulated authentication failure; credential was not accepted by the mock.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_i7Tb9ZpM3xQw6KnL2vRy5Hc",
+      "key_id": "i7Tb9ZpM3xQw6KnL2vRy5Hc",
+      "result": "success",
+      "response_code": "HTTP 200 OK",
+      "response_time_ms": 504,
+      "reason": "Mock endpoint returned a valid sample payload.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_j1Xn6KdV8pTm4QwZ7hRc2By",
+      "key_id": "j1Xn6KdV8pTm4QwZ7hRc2By",
+      "result": "success",
+      "response_code": "HTTP 200 OK",
+      "response_time_ms": 89,
+      "reason": "Mock endpoint returned a valid sample payload.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_k8Pm2YrH5vNz9LxQ4tWc7Jb",
+      "key_id": "k8Pm2YrH5vNz9LxQ4tWc7Jb",
+      "result": "success",
+      "response_code": "HTTP 204 No Content",
+      "response_time_ms": 271,
+      "reason": "Mock endpoint completed without a response body.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_l4Qv7BcN1xKm8TpY5rHz3Wd",
+      "key_id": "l4Qv7BcN1xKm8TpY5rHz3Wd",
+      "result": "success",
+      "response_code": "HTTP 204 No Content",
+      "response_time_ms": 375,
+      "reason": "Mock endpoint completed without a response body.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_m9Jx3TkW6qVp2NcR8yHb5Z",
+      "key_id": "m9Jx3TkW6qVp2NcR8yHb5Z",
+      "result": "success",
+      "response_code": "HTTP 204 No Content",
+      "response_time_ms": 389,
+      "reason": "Mock endpoint completed without a response body.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_n2Rw5HpZ7mKx4QtL9vYc1Bd",
+      "key_id": "n2Rw5HpZ7mKx4QtL9vYc1Bd",
+      "result": "success",
+      "response_code": "HTTP 201 Created",
+      "response_time_ms": 647,
+      "reason": "Mock create operation completed successfully.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_o6Vk1MqY3pNz8TwR5hJx2Lc",
+      "key_id": "o6Vk1MqY3pNz8TwR5hJx2Lc",
+      "result": "success",
+      "response_code": "HTTP 201 Created",
+      "response_time_ms": 483,
+      "reason": "Mock create operation completed successfully.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_p3Zn8LbT6vQk1XmY9rW4Hp",
+      "key_id": "p3Zn8LbT6vQk1XmY9rW4Hp",
+      "result": "success",
+      "response_code": "HTTP 201 Created",
+      "response_time_ms": 291,
+      "reason": "Mock create operation completed successfully.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_q7Hy4XwK2mNp9VzL5tRc3Bj",
+      "key_id": "q7Hy4XwK2mNp9VzL5tRc3Bj",
+      "result": "miss",
+      "response_code": 404,
+      "response_time_ms": 52,
+      "reason": "Not Found: Simulated endpoint or resource was not found.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_r5Ct9NpJ4xWm7QvK2hY8Lb",
+      "key_id": "r5Ct9NpJ4xWm7QvK2hY8Lb",
+      "result": "miss",
+      "response_code": 503,
+      "response_time_ms": 470,
+      "reason": "Service Unavailable: Simulated mock service was temporarily unavailable.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_s1Wm6RvB9kTx3QpN7yHz5Lc",
+      "key_id": "s1Wm6RvB9kTx3QpN7yHz5Lc",
+      "result": "miss",
+      "response_code": 401,
+      "response_time_ms": 658,
+      "reason": "Unauthorized: Simulated authentication failure; credential was not accepted by the mock.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_t8Kq2YxL4vNm7HpR1zW5Bc",
+      "key_id": "t8Kq2YxL4vNm7HpR1zW5Bc",
+      "result": "success",
+      "response_code": "HTTP 200 OK",
+      "response_time_ms": 500,
+      "reason": "Mock endpoint returned a valid sample payload.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_u4Np7ZhM9xQk2TvL6rWy3Bc",
+      "key_id": "u4Np7ZhM9xQk2TvL6rWy3Bc",
+      "result": "success",
+      "response_code": "HTTP 200 OK",
+      "response_time_ms": 525,
+      "reason": "Mock endpoint returned a valid sample payload.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_v9Bx3QkT5mRz8HpN1yWc4Lj",
+      "key_id": "v9Bx3QkT5mRz8HpN1yWc4Lj",
+      "result": "miss",
+      "response_code": 429,
+      "response_time_ms": 186,
+      "reason": "Rate Limited: Simulated request rate exceeded the configured test limit.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_w2Lj5VmR7xQn4TkP9hYc6Zb",
+      "key_id": "w2Lj5VmR7xQn4TkP9hYc6Zb",
+      "result": "miss",
+      "response_code": 401,
+      "response_time_ms": 478,
+      "reason": "Unauthorized: Simulated authentication failure; credential was not accepted by the mock.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_x6Yt1HpN3mKq8RvW5zLc2Bj",
+      "key_id": "x6Yt1HpN3mKq8RvW5zLc2Bj",
+      "result": "miss",
+      "response_code": 401,
+      "response_time_ms": 472,
+      "reason": "Unauthorized: Simulated authentication failure; credential was not accepted by the mock.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_y3Qm8WzK6vTp1NxR9hBc4Lj",
+      "key_id": "y3Qm8WzK6vTp1NxR9hBc4Lj",
+      "result": "success",
+      "response_code": "HTTP 200 OK",
+      "response_time_ms": 279,
+      "reason": "Mock endpoint returned a valid sample payload.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_z7Rv4NcJ2xKm9TpW5hYq8Lb",
+      "key_id": "z7Rv4NcJ2xKm9TpW5hYq8Lb",
+      "result": "success",
+      "response_code": "HTTP 201 Created",
+      "response_time_ms": 114,
+      "reason": "Mock create operation completed successfully.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_A5Pk9XhM3vRt7QwN2yLc6Bj",
+      "key_id": "A5Pk9XhM3vRt7QwN2yLc6Bj",
+      "result": "success",
+      "response_code": "HTTP 200 OK",
+      "response_time_ms": 264,
+      "reason": "Mock endpoint returned a valid sample payload.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_B1Wt6QvL8mZp4KxR9hYc2Tn",
+      "key_id": "B1Wt6QvL8mZp4KxR9hYc2Tn",
+      "result": "success",
+      "response_code": "HTTP 204 No Content",
+      "response_time_ms": 513,
+      "reason": "Mock endpoint completed without a response body.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_C8Zn2YrT5qVm7LpW1xHk4Bc",
+      "key_id": "C8Zn2YrT5qVm7LpW1xHk4Bc",
+      "result": "success",
+      "response_code": "HTTP 204 No Content",
+      "response_time_ms": 411,
+      "reason": "Mock endpoint completed without a response body.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_D4Hx7KmP9vNc2YwL5qRt8Bj",
+      "key_id": "D4Hx7KmP9vNc2YwL5qRt8Bj",
+      "result": "success",
+      "response_code": "HTTP 200 OK",
+      "response_time_ms": 132,
+      "reason": "Mock endpoint returned a valid sample payload.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_E9Mq3LbV6xTp1KzR8hW5Nc",
+      "key_id": "E9Mq3LbV6xTp1KzR8hW5Nc",
+      "result": "success",
+      "response_code": "HTTP 204 No Content",
+      "response_time_ms": 598,
+      "reason": "Mock endpoint completed without a response body.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_F2Yp5RwN7kVm4QxL9tHb3Zc",
+      "key_id": "F2Yp5RwN7kVm4QxL9tHb3Zc",
+      "result": "success",
+      "response_code": "HTTP 204 No Content",
+      "response_time_ms": 50,
+      "reason": "Mock endpoint completed without a response body.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_G6Tk1XzH4mQv8LpN2yRw5Bc",
+      "key_id": "G6Tk1XzH4mQv8LpN2yRw5Bc",
+      "result": "success",
+      "response_code": "HTTP 200 OK",
+      "response_time_ms": 644,
+      "reason": "Mock endpoint returned a valid sample payload.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_H3Vn8QjM6xKt2RpW9yLc4Bz",
+      "key_id": "H3Vn8QjM6xKt2RpW9yLc4Bz",
+      "result": "miss",
+      "response_code": 401,
+      "response_time_ms": 591,
+      "reason": "Unauthorized: Simulated authentication failure; credential was not accepted by the mock.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_I7Lp4BcR1vXn9QwK5mTy2Hz",
+      "key_id": "I7Lp4BcR1vXn9QwK5mTy2Hz",
+      "result": "success",
+      "response_code": "HTTP 201 Created",
+      "response_time_ms": 163,
+      "reason": "Mock create operation completed successfully.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_J5Rw9YkT3pVm6XqN8hLc2Bz",
+      "key_id": "J5Rw9YkT3pVm6XqN8hLc2Bz",
+      "result": "miss",
+      "response_code": 503,
+      "response_time_ms": 643,
+      "reason": "Service Unavailable: Simulated mock service was temporarily unavailable.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_K1Xm6NpV4qZt8RwL2yHc5Bj",
+      "key_id": "K1Xm6NpV4qZt8RwL2yHc5Bj",
+      "result": "success",
+      "response_code": "HTTP 204 No Content",
+      "response_time_ms": 558,
+      "reason": "Mock endpoint completed without a response body.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_L8Qh2ZtB7mVx4KpN9wRc5Yj",
+      "key_id": "L8Qh2ZtB7mVx4KpN9wRc5Yj",
+      "result": "success",
+      "response_code": "HTTP 201 Created",
+      "response_time_ms": 537,
+      "reason": "Mock create operation completed successfully.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_M4Yk7PwN2vQx9LtH6mBc3Rz",
+      "key_id": "M4Yk7PwN2vQx9LtH6mBc3Rz",
+      "result": "success",
+      "response_code": "HTTP 200 OK",
+      "response_time_ms": 326,
+      "reason": "Mock endpoint returned a valid sample payload.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_N9Ct3HxJ5kVm8QwL2yRp7Bc",
+      "key_id": "N9Ct3HxJ5kVm8QwL2yRp7Bc",
+      "result": "miss",
+      "response_code": 403,
+      "response_time_ms": 268,
+      "reason": "Forbidden: Simulated permission check denied the requested action.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_O2Vm5LbQ8xTk1NpR6yHz4Wc",
+      "key_id": "O2Vm5LbQ8xTk1NpR6yHz4Wc",
+      "result": "success",
+      "response_code": "HTTP 204 No Content",
+      "response_time_ms": 322,
+      "reason": "Mock endpoint completed without a response body.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_P6Zr1TkW3mQv9HxL5yBc2Jn",
+      "key_id": "P6Zr1TkW3mQv9HxL5yBc2Jn",
+      "result": "success",
+      "response_code": "HTTP 204 No Content",
+      "response_time_ms": 309,
+      "reason": "Mock endpoint completed without a response body.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_Q3Np8YhM7vKx2RtW5mLc9Bj",
+      "key_id": "Q3Np8YhM7vKx2RtW5mLc9Bj",
+      "result": "success",
+      "response_code": "HTTP 204 No Content",
+      "response_time_ms": 408,
+      "reason": "Mock endpoint completed without a response body.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_R7Bx4WvL1mQz8TpK5yHc2Jn",
+      "key_id": "R7Bx4WvL1mQz8TpK5yHc2Jn",
+      "result": "success",
+      "response_code": "HTTP 204 No Content",
+      "response_time_ms": 316,
+      "reason": "Mock endpoint completed without a response body.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_S5Kj9XmT2vRp6WqN8hLc4By",
+      "key_id": "S5Kj9XmT2vRp6WqN8hLc4By",
+      "result": "success",
+      "response_code": "HTTP 204 No Content",
+      "response_time_ms": 646,
+      "reason": "Mock endpoint completed without a response body.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_T1Qw6ZpN4mVk8HxL2yRc5Bj",
+      "key_id": "T1Qw6ZpN4mVk8HxL2yRc5Bj",
+      "result": "success",
+      "response_code": "HTTP 200 OK",
+      "response_time_ms": 254,
+      "reason": "Mock endpoint returned a valid sample payload.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_U8Hy2VcR7mXp4KqN9wLt6Bc",
+      "key_id": "U8Hy2VcR7mXp4KqN9wLt6Bc",
+      "result": "success",
+      "response_code": "HTTP 204 No Content",
+      "response_time_ms": 62,
+      "reason": "Mock endpoint completed without a response body.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_V4Lm7XkB2qNp9RtW5yHc3Jz",
+      "key_id": "V4Lm7XkB2qNp9RtW5yHc3Jz",
+      "result": "success",
+      "response_code": "HTTP 204 No Content",
+      "response_time_ms": 126,
+      "reason": "Mock endpoint completed without a response body.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_W9Pt3NqJ6xKm1RvL8yHb5Zc",
+      "key_id": "W9Pt3NqJ6xKm1RvL8yHb5Zc",
+      "result": "miss",
+      "response_code": 429,
+      "response_time_ms": 441,
+      "reason": "Rate Limited: Simulated request rate exceeded the configured test limit.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    },
+    {
+      "test_id": "test_X2Yv5RhM8kQn4TpL7wBc9Zj",
+      "key_id": "X2Yv5RhM8kQn4TpL7wBc9Zj",
+      "result": "success",
+      "response_code": "HTTP 201 Created",
+      "response_time_ms": 215,
+      "reason": "Mock create operation completed successfully.",
+      "tested_at": "2026-10-13T12:00:00Z",
+      "simulation": true
+    }
+  ]
+}
